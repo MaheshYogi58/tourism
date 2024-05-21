@@ -1,0 +1,21 @@
+.pro{
+
+  width: 50%;
+  margin:auto ;
+ 
+  
+  
+}
+.profile{
+  display: flex;
+  margin: 25px;
+  justify-content: space-between;
+  width: 800px;
+ 
+}
+.new{
+  display: flex;
+  margin: 25px;
+  justify-content: space-between;
+  width: 800px;
+}

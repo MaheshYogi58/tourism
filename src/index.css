@@ -1,0 +1,263 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* UserLayout.css */
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  background-color: white; /* Adjust the background color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add box-shadow for a subtle effect */
+  
+}
+.nav-menu {
+  display: none; /* Hide the navigation links container by default */
+}
+
+/* Show the navigation links container when isMenuOpen is true */
+.nav-menu.open {
+  display: block;
+}
+.img-hover:hover {
+  /* Define your hover styles here */
+  /* For example */
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+  border-radius: 8%;
+}
+
+.container {
+  padding: 0 1rem; /* Adjust as needed */
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+ 
+}
+
+.conimage img {
+  max-width: 80%;
+  height: auto;
+ 
+}
+
+.context {
+  
+  text-align: center;
+}
+
+.htext {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hhtext {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 5rem 0;
+}
+
+
+.conimage{
+  display:flex ;
+  height: 240px;
+  justify-content: center;
+ 
+
+}
+.context{
+  text-align: center;
+  padding: 5px;
+}
+.htext{
+  font-style: italic;
+  padding: 8px;
+  font-size: xx-large;
+
+
+}
+.hhtext{
+font-style: bold;
+font-size: larger;
+
+
+}
+.season{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  padding-top: 15px;
+}
+.slide{
+
+padding-top: 10px;
+margin: 0 10px;
+}
+.slick-slide > div{
+  margin: 0 10px;
+}
+
+.item{
+  padding-top: 18px;
+}
+.imgevents {
+  /* Set a fixed height for the image container */
+  height: 300px;
+   /* Adjust the height as needed */
+  /* Ensure images are fully displayed within the container */
+  overflow: hidden;
+}
+
+.imgevents img {
+  /* Ensure images fill the container */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+
+/*login form */
+
+
+
+.login-form {
+  width: 800px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+ 
+}
+
+.login-form .ant-card-head {
+  text-align: center;
+ 
+}
+
+.login-form .ant-form-item {
+  margin-bottom: 15px;
+}
+
+.login-form .ant-form-item-label {
+  font-weight: bold;
+}
+
+.login-form .ant-checkbox-wrapper {
+  margin-left: 0;
+}
+
+.login-form .ant-btn {
+  width: 100%;
+}
+
+.login-form .ant-btn-link {
+  float: right;
+}
+
+.error {
+  color: red;
+}
+
+
+/* Dropdown menu */
+.dropdown-menu {
+
+  top: calc(100% + 10px); 
+  left: calc(50% - 500px);
+  width: 1100px; 
+  height: 300px;
+  display: block;
+
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+}
+
+/* Dropdown item */
+.dropdown-item {
+  padding: 5px 5px;
+  cursor: pointer;
+}
+/*Seasondetail*/
+.Sdetailimage{
+  height: 400px;
+  width: 100%;
+border: black solid;
+}
+
+
+.Fdetailimage{
+  height: 700px;
+  width: 100%;
+border: black solid;
+}
+.Everest{
+  height: 400px;
+  width: 100%;
+  border-radius: 5px;
+}
+/*Everest*/
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body {
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.Everest-img {
+  width: 100%;
+
+  height: 600px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size:xx-large;
+  font-style: oblique;
+  color: black;
+
+  
+ 
+}
+
+
+
+.description {
+  margin-top: 10px;
+  text-align: justify;
+  font-weight:inherit;
+
+}
+
